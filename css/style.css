@@ -38,7 +38,7 @@ body {
 }     
 
 /* MEDIA QUERY */
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .page-main .row .ms_col_sidebar span {
         display: inline;
     }
