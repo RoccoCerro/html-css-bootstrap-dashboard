@@ -1,3 +1,7 @@
+img {
+    width: 100%;
+}
+
 /* LAYOUT */
 body {
     height: 100vh;
@@ -21,6 +25,15 @@ body {
     padding: 32px 24px;
 }
 
+/* LAYOUT PAGE-CARD */
+.ms_page_card {
+    height: calc(100% - 100px);
+}
+
+.ms_img_table {
+    width: 35px;
+}
+
 /* STYLE HEADER */
 
 /* STYLE SIDEBAR */
@@ -30,8 +43,6 @@ body {
 }     
 
 /* STYLE NEW STUDENT */
-
-/* STYLE */
 
 /* MEDIA QUERY */
 
