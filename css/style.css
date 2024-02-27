@@ -40,6 +40,37 @@ body .ms-offcanvas {
 }
 
 /* STYLE HEADER */
+.ms_img_mobile_logo {
+    width: 50px;
+}
+
+.ms_img_logo {
+    display: none;
+}
+
+/* STYLE NAVBAR */
+.ms_col_search {
+    position: relative;
+    height: 100%;
+    padding: 10px;
+}
+
+.ms_input_search {
+    width: 100%;
+    border: none;
+    background-color: #E5E5E5;
+    padding-left: 40px;
+    height: 100%;
+    border-radius: 10px;
+
+    &~i {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        padding: 25px;
+    }
+}
 
 /* STYLE SIDEBAR */
 .page-main .ms_col_sidebar {
@@ -70,6 +101,14 @@ body .ms_btn {
 @media (min-width: 992px) {
     body .ms-offcanvas {
         width: 700px;
+    }
+
+    .ms_img_mobile_logo {
+        display: none;
+    }
+
+    .ms_img_logo {
+        display: block;
     }
 }
 /* DEBUG */ 
