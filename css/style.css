@@ -43,7 +43,14 @@ body {
 }     
 
 /* STYLE NEW STUDENT */
+.ms_new_student {
+    background-color: #1B72E8;
+}
 
+.ms_badge {
+    display: inline-block;
+    background-color: #165BBA;
+}
 /* MEDIA QUERY */
 
 /* DEBUG */ 
