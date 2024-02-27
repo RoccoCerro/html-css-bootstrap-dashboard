@@ -76,20 +76,20 @@
                 <!-- CLOSE SIDEBAR -->
 
                 <!-- MAIN -->
-                <div class="col flex-grow-1 h-100 overflow-auto">
+                <div class="col flex-grow-1 ms_col_main">
                     <div class="container-fluid p-0 h-100">
                         <!-- SECTION NEW STUDENT -->
-                        <section class="ms_new_student row flex-column flex-md-row text-white py-4">
-                            <div class="col order-md-3 pt-2">
+                        <section class="ms_new_student row flex-column flex-md-row text-white">
+                            <div class="col col-md-3 order-md-3 pt-2">
                                 <span>Nuovo studente</span>
                                 <button class="btn btn-primary ms_btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-plus"></i></button>
                             </div>
-                            <div class="col-12 col-md-5">
+                            <div class="col-12 col-md-6">
                                 <div>
                                     <span class="fs-1">Boolean</span>
                                     <span class="badge rounded-pill ms_badge">Piano blaze</span>
                                 </div>
-                                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                                <nav style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item">
                                             <a href="#">
@@ -111,7 +111,7 @@
                                     </ol>
                                 </nav>
                             </div> 
-                            <div class="col pt-2">
+                            <div class="col col-md-3 pt-2">
                                 <div>Studenti online negli ultimi 30 minuti</div>
                                 <div class="fw-bold">125</div>
                             </div>
@@ -119,7 +119,7 @@
 
                         <div class="ms_page_card row flex-wrap">
                             <div class="col-12 col-lg-8 d-flex flex-column">
-                                <div class="card my-4 flex-grow-1">
+                                <div class="card my-2 flex-grow-1">
                                     <div class="card-header fw-bold">
                                         Prossime classi
                                     </div>
@@ -189,8 +189,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4 h-100 d-flex flex-column h-100">
-                                <div class="card my-4">
+                            <div class="col-12 col-lg-4 h-100 d-flex flex-column">
+                                <div class="card my-2">
                                     <div class="card-header fw-bold">
                                         Todo
                                     </div>
@@ -209,11 +209,11 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="card">
+                                <div class="card ms_card_active_users">
                                     <img src="./img/stats.jpeg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                       <h5 class="card-title">Utenti attivi</h5>
-                                      <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese.</p>
+                                      <p class="card-text ms_p_card_active">Lista degli utenti attivi in piattaforma nell'ultimo mese.</p>
                                     </div>
                                     <ul class="list-group list-group-flush">
                                       <li class="list-group-item">Gennaio: 1200</li>

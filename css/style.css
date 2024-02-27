@@ -12,13 +12,13 @@ body {
 
 /* LAYOUT HEADER */
 .ms_navbar {
-    height: 70px;
+    height: 60px;
     width: 100%;
 }
 
 /* LAYOUT SIDEBAR */
 .page-main {
-    height: calc(100% - 70px);
+    height: calc(100% - 60px);
 }
 
 .page-main .ms_col_sidebar {
@@ -27,12 +27,14 @@ body {
 
 /* LAYOUT PAGE-CARD */
 .ms_page_card {
-    height: calc(100% - 100px);
+    height: calc(100% - 176px);
 }
 
 .ms_img_table {
     width: 35px;
 }
+
+
 
 /* LAYOUT OFFCANVAS */
 body .ms-offcanvas {
