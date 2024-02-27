@@ -59,7 +59,11 @@ body .ms-offcanvas {
 
 body .ms_btn {
     border: 1px solid white;
-    
+    margin-left: 5px;
+
+    & i {
+        font-size: 20px;
+    }
 }
 
 /* MEDIA QUERY */
