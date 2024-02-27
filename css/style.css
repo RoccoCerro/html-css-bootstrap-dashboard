@@ -34,6 +34,11 @@ body {
     width: 35px;
 }
 
+/* LAYOUT OFFCANVAS */
+body .ms-offcanvas {
+    width: 100%;
+}
+
 /* STYLE HEADER */
 
 /* STYLE SIDEBAR */
@@ -51,8 +56,18 @@ body {
     display: inline-block;
     background-color: #165BBA;
 }
-/* MEDIA QUERY */
 
+body .ms_btn {
+    border: 1px solid white;
+    
+}
+
+/* MEDIA QUERY */
+@media (min-width: 992px) {
+    body .ms-offcanvas {
+        width: 700px;
+    }
+}
 /* DEBUG */ 
 
 
