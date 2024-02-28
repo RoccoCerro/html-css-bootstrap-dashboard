@@ -75,6 +75,7 @@ body .ms-offcanvas {
         left: 0;
         transform: translateY(-50%);
         padding: 25px;
+        pointer-events: none;
     }
 }
 
@@ -82,6 +83,11 @@ body .ms-offcanvas {
 .page-main .ms_col_sidebar {
     background-color: #051E34;
     height: 100%;
+
+    & li:hover {
+        background-color: #c0c7ce98;
+        margin: 0px 20px;
+    } 
 }     
 
 /* STYLE NEW STUDENT */
@@ -140,6 +146,7 @@ body .ms_btn {
     .ms_card_active_users > img {
         width: 300px;
     }
+}
 
 /* DEBUG */ 
 
