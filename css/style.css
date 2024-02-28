@@ -84,9 +84,16 @@ body .ms-offcanvas {
     background-color: #051E34;
     height: 100%;
 
+    & span {
+        padding-left: 10px;
+    }
+
+    & li {
+        padding: 5px 10px;
+    }
+
     & li:hover {
         background-color: #c0c7ce98;
-        margin: 0px 20px;
     } 
 }     
 
