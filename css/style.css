@@ -87,6 +87,7 @@ body .ms-offcanvas {
 
     & span {
         padding-left: 10px;
+        display: none;
     }
 
     & li {
@@ -153,6 +154,10 @@ body .ms_btn {
 
     .ms_card_active_users > img {
         width: 300px;
+    }
+    
+    .page-main .ms_col_sidebar span {
+        display: inline;
     }
 }
 
