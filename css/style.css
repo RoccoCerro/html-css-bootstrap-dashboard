@@ -82,6 +82,7 @@ body .ms-offcanvas {
 /* STYLE SIDEBAR */
 .page-main .ms_col_sidebar {
     background-color: #051E34;
+    background-image: url(../img/sidebar-bg.png);
     height: 100%;
 
     & span {
